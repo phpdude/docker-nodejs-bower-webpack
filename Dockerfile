@@ -2,7 +2,7 @@
 FROM node
 
 # Install Webpack
-RUN npm install -g bower webpack
+RUN npm install -g bower webpack npm-cache
 
 # Define working directory.
 WORKDIR /data
